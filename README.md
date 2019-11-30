@@ -4,4 +4,4 @@ Create an example of multi criteria decision app for choosing the best smartphon
 
 This project used webpack and lodash.js
 
-Run App by open index.js
+Run App by open index.html
