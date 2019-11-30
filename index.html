@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Decision Support System</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="text-center container">
+
+            <h1 class="text-center">Decision Support System</h1>
+            
+            <div id="input-form" class="bg-dark p-5">
+                <h2 class="text-center text-white">Smartphone Form Data</h2>
+                <br>
+                <label class="text-white mr-3">Name: </label>
+                <input type="text" id="nama" autocomplete="off">
+                <br>
+
+                <label class="text-white m-4">RAM: </label>
+                <input type="text" id="ram" autocomplete="off">
+                <label class="text-white">GB</label>
+                <br>
+                
+                <label class="text-white mr-3">Harga: </label>
+                <input type="text" id="harga" autocomplete="off">
+                <br>
+
+                <div class="pl-5">
+                    <label class="text-white m-3">Camera: </label>
+                    <input type="text" id="camera" autocomplete="off">
+                    <label class="text-white">Mega Pixel</label>
+                </div>
+                <br><br>
+
+                <button id="submit-btn" class="btn btn-primary text-center">Submit</button>
+            </div>
+    </div>
+
+    <div id="result-div" class="container text-center">
+
+        <table class="table table-dark">
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>RAM</th>
+                    <th>Harga</th>
+                    <th>Camera</th>
+                </tr>
+            </thead>
+
+            <tbody id="dt-body">
+
+            </tbody>
+
+        </table>
+
+        <button id="decide-btn" class="btn btn-primary">Pick Best Option Here!</button>
+
+    </div>
+
+</body>
+<script src="./dist/bundle.js"></script>
+</html>
